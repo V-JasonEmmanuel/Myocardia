@@ -1,0 +1,22 @@
+# Git LFS Configuration for Large Files
+
+# Images
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+
+# Models and Data
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.pickle filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+
+# Archives
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+
+# Datasets
+ECG_IMAGES_DATASET/** filter=lfs diff=lfs merge=lfs -text
+Testing\ DataSet/** filter=lfs diff=lfs merge=lfs -text
+Final_Dataset/** filter=lfs diff=lfs merge=lfs -text
