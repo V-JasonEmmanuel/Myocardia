@@ -18,5 +18,4 @@
 
 # Datasets
 ECG_IMAGES_DATASET/** filter=lfs diff=lfs merge=lfs -text
-"Testing DataSet"/** filter=lfs diff=lfs merge=lfs -text
 Final_Dataset/** filter=lfs diff=lfs merge=lfs -text
